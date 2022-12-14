@@ -1,0 +1,22 @@
+.btn{
+    margin:10px;
+    width:70px;
+    height:30px;
+    font-weight: 700;
+    color:white;
+    border-radius: 12px;
+    border:none;
+    transition: all .2s ease-in-out; 
+    
+}
+
+.btn:hover { 
+    transform: scale(0.9); 
+    }
+
+#edit{
+    background-color: rgba(2, 65, 146, 0.726);
+}
+#delete{
+    background-color: rgba(167, 4, 4, 0.733);
+}
