@@ -27,10 +27,10 @@ function Todo(props) {
         }
      }))
      const classes = useStyles();
+
     const updateTodo = async(id ,todo)=>{
         const userDoc = doc(db,"todos",id);
-        const editedTodo ={todo:todo};
-          await updateDoc(userDoc,editedTodo);
+          await updateDoc(userDoc,{todo:todo});
          // db.collection("todos").doc(id).update({todo: "bard"});
          //handleClick();
       }
