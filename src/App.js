@@ -51,17 +51,11 @@ function App() {
         <li>
           {<Todo todo={todo.todo} id={todo.id} index={index+1}/>}
         </li>
-        
+      
       )}
       </ul>
-      <ul style={{listStyleType:'none'}}>
-        {todos.map((todo ,index)=>
-        <li>
-          {<Todo todo={todo.todo} id={todo.id} index={index+1}/>}
-        </li> 
-      )}
-      </ul>
-        </div>)
+        </div>
+        )
 }
 
 export default App;
